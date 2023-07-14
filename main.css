@@ -1,0 +1,262 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/rubik-v28-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/rubik-v28-cyrillic_latin-500.woff2') format('woff2');
+}
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+   font-family: 'Rubik', "Arial", sans-serif;
+   font-weight: 500;
+}
+
+.container{
+   width: 1280px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.header-top{
+   display: flex;
+   justify-content: space-between;
+   padding: 39px;
+   margin-bottom: 60px;
+   background-color: #f6f6f6;
+}
+
+.header-top-left{
+   display: flex;
+   align-items: center;
+   background-color: #f6f6f6;
+}
+
+.header-top-list{
+   display: flex;
+   align-items: center;
+}
+
+.header-top-list-item{
+   list-style: none;
+   margin-right: 25px;
+}
+
+.header-top-right{
+   display: flex;
+   align-items: center;
+}
+
+.form-surname-input{
+   background-color: #fff;
+   width: 275px;
+   border-radius: 60px;
+   border: none;
+   padding-top: 21px;
+   padding-bottom: 13px;
+   padding-left: 41px;
+   margin-right: 25px;
+}
+
+.form-input{
+   font-family: 'Rubik', "Arial", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: #8d8d8d;
+}
+
+.translate-list{
+   align-items: center;
+   width: 70px;
+   padding: 3px;
+   list-style: none;
+   display: flex;
+   border-radius: 39px;
+   justify-content: space-between;
+   background-color: #dce6ff;
+   margin-right: 25px;
+}
+
+.translate-item{
+   font-family: 'Rubik';
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15px;
+   padding: 8px 7px 7px;
+   color: #a6a6a6;
+}
+
+.translate-item-uz{
+   color: #000;
+   background-color: #fff;
+   border-radius: 39px;
+   color: #000;
+}
+
+.header-top-right-link{
+   font-family: 'Rubik', 'Arial', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #fff;
+   background-color: #7296ec;
+   border-radius: 10px;
+   padding: 13px 20px 13px 20px;
+   margin-right: 25px;
+   text-decoration: none;
+}
+
+.header-bottom{
+   background-color: #fff;
+}
+
+.header-bottom-list{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 40px;
+}
+
+.header-bottom-list-item{
+   list-style: none;
+}
+
+.header-bottom-link{
+   text-decoration: none;
+   font-family: 'Rubik', 'Arial', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #7f7f7f;
+}
+
+.main-reklama{
+   text-align: center;
+   margin: 0;
+}
+
+/* hero start */
+
+.hero-list{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 50px;
+}
+
+.hero-item{
+   border: 1px solid #f6f6f6;
+   background-color: #f6f6f6;
+   list-style: none;
+   padding: 20px 17px 15px 17px;
+   width: 393px;
+   border-radius: 15px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+}
+
+.hero-item-two{
+   width: 393px;
+}
+
+.hero-item:nth-child(3){
+   margin-right: 0;
+}
+
+.hero-item:nth-child(6){
+   margin-right: 0;
+}
+
+.hero-title{
+   font-family: "Rubik", 'Arial', sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 26px;
+}
+
+.hero-desc{
+   font-family: "Rubik", 'Arial', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+.hero-img{
+   margin-bottom: 15px;
+}
+
+.hero-text{
+   display: flex;
+   align-items: center;
+}
+
+.hero-link{
+   text-decoration: none;
+   color: #5e5f61;
+   font-family: "Rubik", 'Arial', sans-serif;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   margin-left: 10px;
+}
+
+.hero-time{
+   font-family: "Rubik", 'Arial', sans-serif;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: #5e5f61;
+   margin-left: 8px;
+}
+
+.site-article{
+   width: 1050px;
+   background-image: url("./images/Group\ 35\ 1.png");
+   margin: 0 auto;
+}
+
+.article-wrapper{
+   display: flex;
+   align-items: center;
+   margin-top: 60px;
+   margin-bottom: 0px;
+}
+
+.article-title-box{
+   width: 404px;
+}
+
+.article-title{
+   color: #000;
+   font-size: 20px;
+   font-family: "Rubik", "Arial", sans-serif;
+   font-weight: 500;
+   line-height: 26px;
+}
+
+.article-link{
+   display: inline-block;
+   min-width: 149px;
+   padding: 15px 15px;
+   text-align: center;
+   color: #fff;
+   font-size: 20px;
+   font-family: "Rubik", "Arial", sans-serif;
+   font-weight: 500;
+   border-radius: 10px;
+   background: #f78b3b;
+   text-decoration: none;
+   margin-left: 380px;
+}
