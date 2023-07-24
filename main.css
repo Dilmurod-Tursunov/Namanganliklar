@@ -296,7 +296,6 @@ body {
 .bottom-box{
    display: flex;
    justify-content: space-between;
-   align-items: center;
 }
 
 .bottom-item-list{
@@ -354,11 +353,26 @@ body {
    margin-right: 7px;
 }
 
+.bottom-box-link{
+   display: block;
+   text-decoration: none;
+   border-radius: 10px;
+   background: #eaeaea;
+   color: #000;
+   font-family: "Rubik", "Arial", sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   text-align: center;
+   padding: 17px 343px;
+   margin-top: 7px;
+   margin-bottom: 100px;
+}
+
 .bottom-box-two{
    padding: 0;
    margin-left: 10px;
    margin-bottom: 0;
-   margin-top: 0;
+   margin-top: 17px;
    margin-right: 0;
 }
 
