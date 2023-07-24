@@ -172,6 +172,8 @@ body {
    display: flex;
    flex-wrap: wrap;
    margin-top: 50px;
+   padding: 0;
+   justify-content: space-between;
 }
 
 .hero-item {
@@ -182,7 +184,6 @@ body {
    width: 393px;
    border-radius: 15px;
    margin-bottom: 10px;
-   margin-right: 10px;
 }
 
 .hero-item-two {
@@ -282,4 +283,134 @@ body {
    background: #f78b3b;
    text-decoration: none;
    margin-left: 380px;
+}
+
+.bottom-title{
+   color: #000;
+   font-family: "Rubik", "Arial", sans-serif;
+   font-size: 24px;
+   font-weight: 500;
+   margin-top: 60px;
+}
+
+.bottom-box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.bottom-item-list{
+   padding: 0;
+}
+
+.bottom-item{
+   width: 797px;
+   border-radius: 15px;
+   background-color: #f6f6f6;
+   list-style: none;
+   display: flex;
+   padding: 20px;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.bottom-box-item-two{
+   margin-left: 15px;
+}
+
+.bottom-item-title-box{
+   width: 535px;
+}
+
+.bottom-item-title{
+   color: #000;
+   font-family: "Rubik", "Arial", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 26px;
+   margin: 0;
+}
+
+.bottom-item-desc{
+   color: #4a4b4c;
+   font-family: "Rubik", "Arial", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22px;
+   margin-top: 7px;
+   margin-bottom: 20px;
+}
+
+.bottom-box-text{
+   display: flex;
+   align-items: center;
+   color: #5e5f61;
+   font-family: "Rubik", "Arial", sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+}
+
+.bottom-text-img{
+   margin-right: 7px;
+}
+
+.bottom-box-two{
+   padding: 0;
+   margin-left: 10px;
+   margin-bottom: 0;
+   margin-top: 0;
+   margin-right: 0;
+}
+
+.bottom-box-title{
+   color: #000;
+   font-family: "Rubik", "Arial", sans-serif;
+   font-size: 24px;
+   font-weight: 500;
+   margin-bottom: 30px;
+   margin-top: 0;
+}
+
+.bottom-box-two-list{
+   padding: 20px 20px 25px 17px;
+   margin: 0;
+   border-radius: 15px;
+   background-color: #f6f6f6;
+}
+
+.bottom-box-two-item{
+   list-style: none;
+   margin-bottom: 20px;
+}
+
+.bottom-box-two-item:nth-child(5){
+   border: none;
+   margin: 0;
+}
+
+.bottom-box-two-title{
+   color: #000;
+   font-family: "Rubik", "Arial", sans-serif;
+   margin: 0;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+}
+
+.bottom-box-two-text{
+   color: #5E5F61;
+   font-family: "Rubik", "Arial", sans-serif;
+   font-size: 13px;
+   font-weight: 400;
+   margin-top: 7px;
+}
+
+.bottom-box-two-desc{
+   border-bottom: 2px solid #d2d2d2;
+   display: block;
+   margin-top: 20px;
+}
+
+.bottom-box-two-img{
+   margin-top: 10px;
 }
